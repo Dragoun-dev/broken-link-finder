@@ -2,8 +2,6 @@ import requests
 from selenium import webdriver
 
 options = webdriver.ChromeOptions()
-options.add_argument("start-maximized")
-options.add_argument('disable-infobars')
 driver = webdriver.Chrome(chrome_options=options,
                           executable_path=r'C:\Users\hp\chromedriver.exe')
 driver.get('https://pratapsharma.in/')
